@@ -1,0 +1,143 @@
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+nav {
+    background-color: #817777;
+    color: #fff;
+    padding: 10px 0;
+    width:1000px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 4px 8px 10px rgba(255, 255, 255, 0.085);
+    text-align:center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 25px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    height:20px;
+}
+
+.nav-button:hover {
+    background-color: #161515;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    height:600px;
+
+}
+.about-me{
+    width:1000px;
+    line-height: 2.0;
+    text-align:justify;
+}
+.image{
+    height:300px;
+    width:300px;
+    border-radius:200px;
+    margin-left:100px;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+h2{
+    text-align:center;
+}
+header{
+    text-align:center;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+#contact-form label {
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    color: #333; 
+}
+
+
+#contact-form input, 
+#contact-form textarea {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+
+#contact-form button {
+    padding: 10px 20px; 
+    background-color: #555;  */
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+#contact-form button:hover {
+    background-color: #777; 
+}
+.logo{
+    height:10px;
+    width:10px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    width:1000px;
+}
