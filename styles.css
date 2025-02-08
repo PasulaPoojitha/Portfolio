@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #817777;
+    color: #fff;
+    padding: 10px 0;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 25px;
+    background-color: #555;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #161515;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    min-height: 600px;
+}
+
+.about-me {
+    max-width: 1000px;
+    width: 100%;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    max-width: 1000px;
+    width: 100%;
+}
+.social-icon {
+   height: 40px;
+   width:40px;
+}
